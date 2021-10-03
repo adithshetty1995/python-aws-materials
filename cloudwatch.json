@@ -1,0 +1,82 @@
+{
+    "version":"2.0",
+    "routeKey":"GET /getPerson",
+    "rawPath":"/getPerson",
+    "rawQueryString":"personID=123",
+    "headers":{
+       "accept":"*/*",
+       "accept-encoding":"gzip, deflate, br",
+       "content-length":"0",
+       "host":"2r5uy7zqdh.execute-api.us-east-1.amazonaws.com",
+       "user-agent":"Thunder Client (https://www.thunderclient.io)",
+       "x-amzn-trace-id":"Root=1-61566936-28205e8c4b646eaf1218bab8",
+       "x-forwarded-for":"71.187.201.73",
+       "x-forwarded-port":"443",
+       "x-forwarded-proto":"https"
+    },
+    "queryStringParameters":{
+       "personID":"123"
+    },
+    "requestContext":{
+       "accountId":"454728716029",
+       "apiId":"2r5uy7zqdh",
+       "domainName":"2r5uy7zqdh.execute-api.us-east-1.amazonaws.com",
+       "domainPrefix":"2r5uy7zqdh",
+       "http":{
+          "method":"GET",
+          "path":"/getPerson",
+          "protocol":"HTTP/1.1",
+          "sourceIp":"71.187.201.73",
+          "userAgent":"Thunder Client (https://www.thunderclient.io)"
+       },
+       "requestId":"GgVgkgJjoAMEVPw=",
+       "routeKey":"GET /getPerson",
+       "stage":"$default",
+       "time":"01/Oct/2021:01:49:42 +0000",
+       "timeEpoch":1633052982652
+    },
+    "isBase64Encoded":false
+ }
+
+
+
+ // POST Request
+
+ {
+    "version":"2.0",
+    "routeKey":"POST /createPerson",
+    "rawPath":"/createPerson",
+    "rawQueryString":"",
+    "headers":{
+       "accept":"*/*",
+       "accept-encoding":"gzip, deflate, br",
+       "content-length":"95",
+       "content-type":"application/json",
+       "host":"2r5uy7zqdh.execute-api.us-east-1.amazonaws.com",
+       "user-agent":"Thunder Client (https://www.thunderclient.io)",
+       "x-amzn-trace-id":"Root=1-615670cd-17514f966b3079c8508b78cf",
+       "x-forwarded-for":"71.187.201.73",
+       "x-forwarded-port":"443",
+       "x-forwarded-proto":"https"
+    },
+    "requestContext":{
+       "accountId":"454728716029",
+       "apiId":"2r5uy7zqdh",
+       "domainName":"2r5uy7zqdh.execute-api.us-east-1.amazonaws.com",
+       "domainPrefix":"2r5uy7zqdh",
+       "http":{
+          "method":"POST",
+          "path":"/createPerson",
+          "protocol":"HTTP/1.1",
+          "sourceIp":"71.187.201.73",
+          "userAgent":"Thunder Client (https://www.thunderclient.io)"
+       },
+       "requestId":"GgaQMjF-oAMEMMQ=",
+       "routeKey":"POST /createPerson",
+       "stage":"$default",
+       "time":"01/Oct/2021:02:22:05 +0000",
+       "timeEpoch":1633054925832
+    },
+    "body":"{\n        \"firstName\": \"adith\",\n        \"lastName\": \"shetty\",\n        \"nationality\": \"INDIAN\"\n}",
+    "isBase64Encoded":false
+ }
